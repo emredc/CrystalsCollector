@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crystals Collector Game</title>
+    <!--RESET CSS LINK ATTACHED-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!--STYLE CSS LINK ATTACHED-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--BOOTSTRAP LINK ATTACHED-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<!--HEADER ATTACHED-->
+<header><b>CRYSTAL COLLECTOR</b></header>
+
+<br>
+
+<body background ="C:\Users\EMRE\Desktop\Crystal Collector\assets\images\blue-poly-background.jpg">
+
+<!--OPENED a WHOLE ROW so that PLAYER SHOULD BE ABLE TO SEE THE GAME LOGIC-->
+<div class="container">
+	<div class="row">
+		<div class=col-lg-12>
+		   <div class=col-lg-12><b>CRYSTAL COLLECTOR GAME LOGIC</b></div>
+			
+		</div>
+	</div>
+</div>	
+
+<br>
+
+<div class= "container">
+	<div class="row">
+		<div class=col-md-12>
+			<p> You will be given a random number at the start of the game.</p>
+            <br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+			<p>Each time when the game starts, the game will change the values of each crystal</p>
+		</div>
+	</div>
+</div>
+
+<br>
+<!--OPENED ANOTHER ROW and DIVIDED 3 PARTS so that PLAYER SHOULD BE ABLE TO SEE THE SCORE/WIN/LOSS-->
+<div class= "container">
+	<div class="row">
+		<div class=col-lg-12>
+			<div class=col-lg-4>
+			SCORE: 
+			</div>
+			<div class=col-lg-4>
+			WIN:
+			</div>
+			<div class=col-lg-4>
+			LOSS:
+			</div>
+		</div>
+	</div>
+</div>
+<!--OPENED ANOTHER ROW as a WHOLE so that PLAYER SHOULD BE ABLE TO SEE CRYSTAL BUTTONS-->
+<div class= "container">
+	<div class="row">
+		<div class=col-lg-12>
+			
+			<button class= "btn"> <img src= "C:\Users\EMRE\Desktop\Crystal Collector\assets\images\Blue.jpg" width=150px height=150px> </button>
+			<button class= btn> <img src="C:\Users\EMRE\Desktop\Crystal Collector\assets\images\Green.png"  width=150px height=150px> </button>
+			<button class= btn> <img src="C:\Users\EMRE\Desktop\Crystal Collector\assets\images\Red.jpg" width=150px height=150px> </button>
+			<button class= btn id="diamond4"> <img src="C:\Users\EMRE\Desktop\Crystal Collector\assets\images\Yellow.jpg" width=150px height=150px> </button>
+		
+		</div>
+	</div>
+</div>
+<!--OPENED ANOTHER ROW and DIVIDED 2 PARTS so that PLAYER SHOULD BE ABLE TO SEE THE TOTAL SCORE ON THE BOTTOM OF THE FIRST CRYSTAL-->
+<div class= "container">
+	<div class="row">
+		<div class=col-lg-12>
+			<div class=col-lg-6>
+			<span> Your Total Score is:</span>
+			<span id="total"> </span>
+	
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class= "container">
+	<div class="row">
+		<div class=col-lg-12>
+			<div class=col-lg-6>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--JQUERY AND JS LINKS ATTACHED so that GAME WORKS PROPERLY-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+
+
+
